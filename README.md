@@ -10,7 +10,7 @@ Voce precisa ter o compilador [GCC](https://gcc.gnu.org/) para rodar os codigos 
 
 Compativeis com Linux e macOS. 
 
-Para utilizar esses codigos no Windows sem GCC, assista [esse video](http://www.ifsul.edu.br/).
+Para utilizar esses codigos no Windows sem GCC, assista [esse video](https://www.youtube.com/watch?v=YzXEo0Luyf0).
 
 ## Content
 O conteudo esta dividido em 6 topicos: funcoes, recursao, ponteiros, strings, alocacao dinamica e manipulacao de arquivos
@@ -25,7 +25,7 @@ Aqui voce encontra:
 `provasPDF` - provas de semestres anteriores para fins de estudo - sem solucao
 
 
-###### O [gabarito das provas](http://www.ifsul.edu.br/) eu mantenho em um repositorio privado.
+###### O [gabarito das provas](https://github.com/andredelmestre/provasProgEstruturada) eu mantenho em um repositorio privado.
 
 ## Usage
 
