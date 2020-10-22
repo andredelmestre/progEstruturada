@@ -10,7 +10,7 @@ Voce precisa ter o compilador [GCC](https://gcc.gnu.org/) para rodar os codigos 
 
 Compativeis com Linux e macOS. 
 
-Para utilizar esses codigos no Windows sem GCC, assista [esse video](https://www.youtube.com/watch?v=YzXEo0Luyf0).
+Para utilizar esses codigos no Windows sem GCC, assista [esse video](https://www.youtube.com/watch?v=h_m0vf6mt1E&list=PLeZ9_FbdLGk7K4ma8oXb3hhcjBMjF1Kcp&index=2).
 
 ## Content
 O conteudo esta dividido em 6 topicos: funcoes, recursao, ponteiros, strings, alocacao dinamica e manipulacao de arquivos
