@@ -33,12 +33,16 @@ int addNumbers(int *ptr1, int *ptr2){
 
 void swap(int *ptr1, int *ptr2){
     int temp;
-   	printf("swap ENDERECO\n a=%i \n b=%i\n", ptr1, ptr2);
+   	//printf("swap ENDERECO\n a=%i \n b=%i\n", ptr1, ptr2);
      temp = *ptr1;
     *ptr1= *ptr2;
     *ptr2= temp;
 }
 
+void swap3nums(int *ptr1, int *ptr2, int *ptr3){
+	swap(ptr1, ptr2);	// a=5, b=3, c=7;
+	swap(ptr1, ptr3);	// a=7, b=3, c=5;
+}
 
 //AULA
 void somaVetores(int * vet1, int * vet2, int tamanho){
@@ -125,16 +129,15 @@ void ordenaVet(int *vet, int tamanho, int crescente){
 
 
 // funcoes a serem desenvolvidas em aula
+int contaPares(int * vet, int tamanho, int opcao){
+}
 
 void contaParImpar(int *vet, int tam, int *contI, int *contP){
 }
 
-// funcoes desenvolvidas na aula de 26 de setembro
-
 int contaElemento(int * vet, int tam, int el){
 }
 
-// usar contaElemento() aqui 
 void printaUnicos(int * vet, int tam){
 }
 

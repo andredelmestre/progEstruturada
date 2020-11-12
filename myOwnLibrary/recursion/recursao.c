@@ -32,40 +32,13 @@ int divisaoRecV2(int a, int b){
   }
 }
 
+//exercicios para serem desenvolvidos em aula/videos
 void numPrintCres(int n){
-    static int aux=1;
-    if(aux < n){
-         printf(" %d ",aux);
-         aux++;
-         numPrintCres(n);
-    }
-    return;
 }
 
 
 int multiplicacaoFull(int a, int b){
-    if(a==0 || b==0)
-          return 0;  //SAIDA
-    else if(a>0 && b>0){
-        return a+multiplicacaoFull(a,b-1); //++
-    }
-    else if(a<0 && b<0){
-        return multiplicacaoFull(-a,-b); //--
-    }
-    else if(a>0 && b<0){
-        return b+multiplicacaoFull(a-1,b); //+-
-    }
-    else if(a<0 && b>0){
-        return a+multiplicacaoFull(a,b-1); //-+    
-    }
 }
 
 void PrintDigitsHexa(int n){
-    printf("\n\nPrinta digito do numero %x ", n);
-    if(n>0)
-    {
-         printf("= %x ",(n%16) );
-         PrintDigitsHexa(n/16);
-    }
-    return;
 }

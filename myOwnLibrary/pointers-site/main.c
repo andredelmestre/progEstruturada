@@ -81,14 +81,27 @@ int main (){
 	/* Parte 3 - Ponteiros e Funcoes */
 	/*********************************/
 
-	num=3; num2=5;
+	num=3; num2=5; 
+	int a=3, b=5, c=7;
 
     printf("\n\nVALORES\n num=%i \n num2=%i\n", num, num2);
     printf("ENDERECO\n num=%i \n num2=%i\n", &num, &num2);
 	swap(&num, &num2);
 
+
     printf("\n\nVALORES\n num=%i \n num2=%i\n", num, num2);
     printf("ENDERECO\n num=%i \n num2=%i\n", &num, &num2);
+
+    limpa();
+
+    printf("\n\nVALORES ANTES DAS TROCAS\n a=%i \n b=%i \n c=%i\n", a, b, c);
+
+
+	swap3nums(&a,&b,&c);
+
+	// a=7, b=3, c=5;
+
+    printf("\n\nVALORES DEPOIS DAS TROCAS\n a=%i \n b=%i \n c=%i\n", a, b, c);
 
     limpa();
 
@@ -151,42 +164,63 @@ int main (){
 
     limpa();
 
-    /*********************************/
-    /* Parte 5 - Exercicios de aula  */
-    /*********************************/
-    //demonstracao de uso dos exercicios desenvolvidos em aula abaixo
+    /**************************************************/
+    /* Parte 5 - Codigos do video/Exercicios de aula  */
+    /**************************************************/
+    // int vetorAula[TAM]={4,3,1,5,2, 7,6,8,9,1}, pares, impares;
+
+    // pares = contaPares(vetorAula, TAM, 0);
+    // impares = contaPares(vetorAula, TAM, 1);
+
+    // // printf("... qtd pares = %i\n", pares);
+    // // printf("... qtd impares = %i\n", impares);
+
+    // // limpa();
+
+    // int vetorAula_2[5]={4,3,1,5,2}, *ptr_impares; 
+    // pares=0; impares=0;
+
+    // ptr_impares=&impares;
+
+    // contaParImpar(vetorAula_2, 5, &pares, ptr_impares);
+    // // printf("por referencia qtd pares = %i\n", pares);
+    // // printf("por referencia qtd impares = %i\n", impares);
 
 
-    // int vetorAula[5]={3,5,2,1,4}, pares=0, impares=0, cont;
 
-    // cont = contaElemento(vetorAula, 5, 4);
-    // printf("4 encontrado %i vezes", cont);
 
-    // cont = contaElemento(vetorAula, 5, 10);
-    // printf("10 encontrado %i vezes", cont);
+    // int cont;
 
-    // int vetorAula_2[5]={2, 2 ,1, 3, 3};
+    // printf("\n\n\n##############################\n");
 
-    // printaUnicos(vetorAula_2, 5);
-    // printaUnicos(vetorAula, 5);
+    // cont = contaElemento(vetorAula, TAM, 1);
+    // printf("1 encontrado %i vezes\n", cont);
 
-    // limpa();
+    // cont = contaElemento(vetorAula, TAM, 2);
+    // printf("2 encontrado %i vezes\n", cont);
 
-    // contaParImpar(vetorAula, 5, &impares, &pares);
+    // cont = contaElemento(vetorAula, TAM, 10);
+    // printf("10 encontrado %i vezes\n", cont);
 
-    // printf("pares=%i  impares=%i\n", pares, impares);
 
-    // limpa();
+    // printf("##############################\n\n\n");
 
-    // int vetorAula2[10];
-    // for (int i = 0; i < 10; ++i){
-    //     printf("Diga um numero\n");
-    //     scanf("%i", vetorAula2+i);
-    // }
-    // pares=0, impares=0;
-    // printArray(vetorAula2, 10);
-    // contaParImpar(vetorAula2, 10, &impares, &pares);
-    // printf("pares=%i  impares=%i\n", pares, impares);
+    // printArray(vetorAula, TAM);
+
+
+    // int outroVetor[6] = {4, 4, 3, 2, 2, 1};
+
+    // printf("outroVetor\n");
+    // printaUnicos(outroVetor, 6);    
+
+    // printf("vetorAula\n");
+    // printaUnicos(vetorAula, TAM);    
+
+    // printf("vetorAula_2\n");
+    // printaUnicos(vetorAula_2, 5);    
+
+
+
 
     return 0;
 }

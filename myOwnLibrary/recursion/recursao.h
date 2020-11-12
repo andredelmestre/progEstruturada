@@ -11,6 +11,7 @@ int multiplicaRec(int, int);
 
 int divisaoRec(int, int, int);
 
+//	AULA/videos
 void numPrintCres(int);
 
 int divisaoRecV2(int, int);
