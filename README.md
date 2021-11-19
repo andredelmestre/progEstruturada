@@ -42,8 +42,6 @@ make clear
 
 ## Support
 
-Website at [http://tsi.charqueadas.ifsul.edu.br/~delmestre/](http://tsi.charqueadas.ifsul.edu.br/~delmestre/)
+Website at [https://andredelmestre.com.br/](https://andredelmestre.com.br/)
 
-E-mail at [almmartins@charqueadas.ifsul.edu.br](almmartins@charqueadas.ifsul.edu.br)
- or at [almmartins@acad.charqueadas.ifsul.edu.br](almmartins@acad.charqueadas.ifsul.edu.br)
-
+E-mail at [andremartins@ifsul.edu.br](andremartins@ifsul.edu.br)
