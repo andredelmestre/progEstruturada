@@ -130,6 +130,41 @@ int main (){
 
     limpa();
 
+	printf("\n#######################");
+	printf("\n# exemplos dos slides #");
+	printf("\n#######################\n\n\n");
+
+
+	printf("\n\npalavra ANTES do swap = %s\n", palavra1);
+    swapChar(palavra1+0, palavra1+1);
+    swapChar(palavra1+4, palavra1+3);
+	printf("palavra DEPOIS do swap = %s\n", palavra1);
+
+
+    strcpy(palavra1,"programacao");
+    printf("\n\ninsertChar on %s ......... \n", palavra1);
+	insertChar(palavra1, 'X', 6);
+    printf("insertChar result %s ......... \n", palavra1);
+
+    strcpy(palavra2,"Bressan");
+    printf("\n\ninsertChar on %s ......... \n", palavra2);
+	insertCharV2(palavra2, '?', 4);
+    printf("insertChar result %s ......... \n", palavra2);
+
+
+    strcpy(palavra3,"Tecnologia_Internet");
+    printf("\n\ninsertWord on %s ......... \n", palavra3);
+	insertWord(palavra3, "Sistemas_", 11);
+    printf("insertWord result %s ......... \n", palavra3);
+
+    strcpy(palavra3,"Eng._Automacao");
+    printf("\n\ninsertWord on %s ......... \n", palavra3);
+	insertWordV2(palavra3, "Controle_", 5);
+    printf("insertWord result %s ......... \n", palavra3);
+
+
+    limpa();
+
 	printf("\n###################\n");
 	printf("# RECURSAO E STRINGS #\n");
 	printf("###################\n\n\n");
@@ -156,54 +191,6 @@ int main (){
 	}else{
 		printf("string sao diferentes!\n");
 	}
-
-
-    limpa();
-
-	printf("\n#######################");
-	printf("\n# exemplos dos slides #");
-	printf("\n#######################\n\n\n");
-
-
-	printf("\n\npalavra ANTES do swap = %s\n", palavra1);
-    swapChar(palavra1+0, palavra1+1);
-    swapChar(palavra1+4, palavra1+3);
-	printf("palavra DEPOIS do swap = %s\n", palavra1);
-
-
-    strcpy(palavra1,"Andre Luis");
-    printf("\n\nANTES do swap=%s\n", palavra1);
-    reverseString(palavra1);
-    printf("DEPOIS do swap=%s\n", palavra1);
-
-
-    strcpy(palavra2,"Andre");
-    printf("\n\nANTES do swap=%s\n", palavra2);
-    reverseString(palavra2);
-    printf("DEPOIS do swap=%s\n", palavra2);
-
-
-    strcpy(palavra1,"programacao");
-    printf("\n\ninsertChar on %s ......... \n", palavra1);
-	insertChar(palavra1, 'X', 6);
-    printf("insertChar result %s ......... \n", palavra1);
-
-
-    strcpy(palavra2,"Bressan");
-    printf("\n\ninsertChar on %s ......... \n", palavra2);
-	insertCharV2(palavra2, '?', 4);
-    printf("insertChar result %s ......... \n", palavra2);
-
-
-    strcpy(palavra3,"Tecnologia_Internet");
-    printf("\n\ninsertWord on %s ......... \n", palavra3);
-	insertWord(palavra3, "Sistemas_", 11);
-    printf("insertWord result %s ......... \n", palavra3);
-
-    strcpy(palavra3,"Eng._Automacao");
-    printf("\n\ninsertWord on %s ......... \n", palavra3);
-	insertWordV2(palavra3, "Controle_", 5);
-    printf("insertWord result %s ......... \n", palavra3);
 
 
     return 0;

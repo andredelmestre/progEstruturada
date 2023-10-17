@@ -35,33 +35,12 @@ void printASCII(){
 }
 
 int compareString(char *str1, char *str2){
-    // if(strcmp(str1, str2)==0){
-    //     return 1;
-    // }else{
-    //     return 0;
-    // }
-    return !strcmp(str1, str2);
 }
 
 int compareStringV2(char *str1, char *str2){
-    while( *str1 == *str2 ){
-        if(*str1=='\0' && *str2=='\0'){
-            return 1;
-        }
-        str1++;
-        str2++;
-    }
-    return 0;
 }
 
 int compareStringRec(char *str1, char *str2){
-    if(*str1=='\0' && *str2=='\0'){
-        return 1;
-    }
-    if(*str1 != *str2){
-        return 0;
-    }
-    return compareStringRec(str1+1, str2+1);
 }
 
 void swapChar(char *ptr1, char *ptr2){
@@ -72,21 +51,9 @@ void swapChar(char *ptr1, char *ptr2){
 }
 
 void reverseString(char * arr){
-    int inicio=0, fim=strlen(arr)-1;
-    while(inicio<fim){
-        printf("%c <=> %c\n", *(arr + inicio), *(arr + fim));
-        swapChar(arr + inicio, arr + fim);
-        inicio++;
-        fim--;
-    }
 }
 
 void reverseStringV2(char * str){
-    int i, tam=strlen(str);
-    for(i=0; i<tam/2; i++){
-        swapChar(str+i, str+tam-i-1 );
-//        swapChar(str[i], str[tam-i-1] );
-    }
 }
 
 void insertChar(char * arr, char letter, int pos){
